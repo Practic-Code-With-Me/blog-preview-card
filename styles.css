@@ -1,0 +1,72 @@
+body {
+    background-color: #F4D04E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Figtree", sans-serif;
+    ;
+}
+
+.card-wrapper {
+    background-color: #FFF;
+    width: 336px;
+    height: 474px;
+    border-radius: 20px;
+    border: 1px;
+    padding: 24px;
+    gap: 24px;
+    box-shadow: 8px 8px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-tag {
+    padding: 4px 12px;
+    border-radius: 4px;
+    background-color: #F4D04E;
+    width: fit-content;
+   
+}
+
+.card-date {
+    line-height: 21px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.card-title {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 800;
+}
+
+.card-desc {
+    color: #6B6B6B;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.text-bold{
+    color: #111;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.author-avt{
+    width: 32px;
+    height: 32px;
+}
+
+.card-author{
+    display: flex;
+align-items: center;    
+gap: 12px;
+}
